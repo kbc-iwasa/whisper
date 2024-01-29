@@ -1,1 +1,1 @@
-# whisper
+# Streamlitを使ったwhisper
