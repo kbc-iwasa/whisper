@@ -22,10 +22,10 @@ if upload_file is not None:
 
     st.audio(upload_file)
 
-    st.write('文字起こしです')
+    st.write('')
     if st.button('開始'):
         comment = st.empty()
-        comment.write('文字起こしを開始します')
+        comment.write('文字起こしを開始しました')
         text = transcribe_file(tmp_file_path)
         comment.write('完了しました。テキストファイルとしてダウンロードできます')
         
